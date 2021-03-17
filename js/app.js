@@ -19,6 +19,7 @@ $(function (){
     //旅行に行く！を選択
     $('.js-go').on('click', function (){
         $('.js-travel').hide().addClass('invisible');
+        $('.js-presentation').hide().addClass('invisible');
         $('.js-cedyna').fadeIn(3000, function (){
             $(this).removeClass('invisible')
         });
@@ -26,6 +27,7 @@ $(function (){
     //旅行に行かない！を選択
     $('.js-notGO').on('click', function (){
         $('.js-travel').hide().addClass('invisible');
+        $('.js-presentation').hide().addClass('invisible');
         $('.js-smbc').fadeIn(3000, function (){
             $(this).removeClass('invisible')
         });
@@ -35,6 +37,7 @@ $(function (){
     //マイル重視！を選択
     $('.js-miles-important').on('click', function (){
         $('.js-miles').hide().addClass('invisible');
+        $('.js-presentation').hide().addClass('invisible');
         $('.js-ana').fadeIn(3000, function (){
             $(this).removeClass('invisible')
         });
@@ -42,6 +45,7 @@ $(function (){
     //ステータス重視！を選択
     $('.js-status-important').on('click', function (){
         $('.js-miles').hide().addClass('invisible');
+        $('.js-presentation').hide().addClass('invisible');
         $('.js-amex').fadeIn(3000, function (){
             $(this).removeClass('invisible')
         });
